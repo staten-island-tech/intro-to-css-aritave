@@ -1,0 +1,260 @@
+/*Attempts to center the boxes via center codes appear to have no effect, used margin instead */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-flex ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 7 rem;
+  background-color: #2b2d32;
+}
+
+.nav-flex li {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+a {
+  color: white;
+  letter-spacing: .1rem;
+  background: #2b2d32;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 200%;
+}
+
+.header {
+  /*text only*/
+  font-size: 200%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.article1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  border: 3px solid blueviolet;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #e7e7e7;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.header-article1-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.article2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  border: 3px solid blueviolet;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: lightcoral;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.header-article2-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.article3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  border: 3px solid blueviolet;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: lightgreen;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.header-article3-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.article4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  border: 3px solid blueviolet;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: pink;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.header-article4-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.article10 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  border: 3px solid blueviolet;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: khaki;
+  margin: 2rem 0rem 2rem 0rem;
+}
+
+.header-article10-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imghh {
+  margin-top: 5%;
+  width: 20rem;
+  height: 20rem;
+  background-image: url(img/headphones-bg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-bottom: -35%;
+}
+
+.header-article1-primary {
+  font-family: 'Iceland', cursive;
+  font-size: 200%;
+}
+
+.header-article2-primary {
+  font-family: 'Iceland', cursive;
+  font-size: 200%;
+}
+
+.header-article3-primary {
+  font-family: 'Iceland', cursive;
+  font-size: 200%;
+}
+
+.header-article4-primary {
+  font-family: 'Iceland', cursive;
+  font-size: 200%;
+}
+
+.header-article10-primary {
+  font-family: 'Iceland', cursive;
+  font-size: 200%;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.Container {
+  background-color: black;
+  /*  background-image: url(img/moroccan-flower-dark.png); idk why this doesn't work */
+}
+
+.Container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  height: 20vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(138, 43, 226, 0.5)), to(rgba(240, 255, 255, 0.5)));
+  background-image: linear-gradient(to right bottom, rgba(138, 43, 226, 0.5), rgba(240, 255, 255, 0.5));
+}
+/*# sourceMappingURL=style.css.map */

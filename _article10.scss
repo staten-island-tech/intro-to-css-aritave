@@ -1,0 +1,26 @@
+.article10 {
+    display: flex;
+    text-align: center; 
+    border: 3px solid blueviolet;
+    width: 40%;
+    justify-content: center;
+    background-color: khaki;
+
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.header-article10-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;}
+
+
+.imghh {
+    margin-top: 5%;
+    width: 20rem;
+    height: 20rem;
+    background-image: url(img/headphones-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: -35%;
+}

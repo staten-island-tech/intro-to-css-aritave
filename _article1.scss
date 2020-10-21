@@ -1,0 +1,18 @@
+.article1 {
+    display: flex;
+    text-align: center; 
+    border: 3px solid blueviolet;
+    width: 40%;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+    align-items: center;
+
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.header-article1-box{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
